@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="bg-light">
+	<nav class="nav navbar-light bg-white navbar-expand-lg p-3">
+		<a href="#" class="navbar-brand"><h4>Searching</h4></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarAhsas" aria-control="navbarAhsas" aria-expanded="false" aria-label="Toggle navigation">
+  			<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse">
+  			<form class="navbar-nav ml-auto" id="search_form">
+  				<input type="text" class="form-control" id="search" placeholder="Search" name="">
+  				<input type="submit" name="submit" value="Search"  class="ml-3 btn btn-primary">	
+  			</form>
+  			
+  		</div>
+	</nav>
+
+
+	<div class="container-fluid mt-5">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<table class="table table-bordered table-striped sortable" id="data-table">
+					<thead id="thead" class="text-center"><tr><th data-sort="name">Name <span class="icon"><i class="far fa-caret-square-down"></i></span></th><th data-sort="name">Admission number <span class="icon"><i class="far fa-caret-square-down"></i></span></th><th data-sort="name">Place <span class="icon"><i class="far fa-caret-square-down"></i></span></th></tr></thead>
+					<tbody id="tabled">
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="compare.js"></script>
+</body>
+</html>
